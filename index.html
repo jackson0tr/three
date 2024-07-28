@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Mohamed</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <label for="floorColor">Floor Color:</label>
+        <input type="color" id="floorColor" name="floorColor" value="#00ff00">
+        <br>
+        <label for="wallColor">Wall Color:</label>
+        <input type="color" id="wallColor" name="wallColor" value="#ff0000">
+        <br>
+        <label for="roomWidth">Room Width:</label>
+        <input type="number" id="roomWidth" name="roomWidth" value="10">
+        <br>
+        <label for="roomHeight">Room Height:</label>
+        <input type="number" id="roomHeight" name="roomHeight" value="5">
+        <br>
+        <label for="roomDepth">Room Depth:</label>
+        <input type="number" id="roomDepth" name="roomDepth" value="10">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.152.0/build/three.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
